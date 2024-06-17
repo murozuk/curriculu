@@ -10,13 +10,14 @@ while True:
 		if number == 1:
 			print("↓")
 			print("ValueError")
-			raise ValueError("invalid literal for int() with base 10: 'hoge'",)
-		
+			error1 = int("hoge")
+					
 			
 		elif number == 2:
 			print("↓")
 			print("IndexError")
-			raise IndexError('string index out of range',)
+			error2 = ""[0]
+			
 
 		elif number == 3:
 			print("↓")
